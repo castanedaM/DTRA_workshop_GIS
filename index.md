@@ -1,24 +1,33 @@
 ---
+title: "DTRA WORKSHOP: Introduction to Geospatial Raster and Vector Data with R"
+author: Mariana Castaneda-Guzman
 site: sandpaper::sandpaper_site
 ---
 
-**Lesson Authors:** Mariana Castaneda-Guzman
+<p></p>
 
-**Lesson Maintainers:** Leah A. Wasser, Megan A. Jones, Zack Brym, Kristina Riemer, Jason Williams, Jeff Hollister,  Mike Smorul, Jemma Stachelek
+<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+
+![](episodes/fig/Vertical_VT_Full_Color_RGB.jpg){alt="" style="width: 25%; display: inline-block;"}
+![](episodes/fig/CDC_logo.jpg){alt="" style="width: 25%; display: inline-block;"}
+![](episodes/fig/NCDC_logo.png){alt="" style="width: 25%; display: inline-block;"}
+![](episodes/fig/DTRA_logo.png){alt="" style="width: 25%; display: inline-block;"}
+
+</div>
+
+<p></p>
 
 The episodes in this lesson cover how to open, work with, and plot
 vector and raster-format spatial data in R. Additional topics include
 working with spatial metadata (extent and coordinate reference systems),
 reprojecting spatial data, and working with raster time series data.
 
-::::::::::::::::::::::::::::::::::::::::::  prereq
-
-### R Skill Level
-
-This lesson assumes you have some knowledge of `R`. If you've never
-used `R` before, or need a refresher, start with our
+This lesson assumes you have some knowledge of `R.` If you've never
+used `R` before or need a refresher, start with our
 [Introduction to R](https://castanedam.github.io/DTRA_workshop_R/)
 lesson.
+
+::::::::::::::::::::::::::::::::::::::::::  prereq
 
 ### Download Data
 
