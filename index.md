@@ -1,8 +1,11 @@
 ---
-title: "DTRA WORKSHOP: Introduction to Geospatial Raster and Vector Data with R"
+title: "Summary and Set-up"
 author: Mariana Castaneda-Guzman
 site: sandpaper::sandpaper_site
 ---
+
+
+# DTRA WORKSHOP: Introduction to Geospatial Raster and Vector Data with R
 
 <p></p>
 
