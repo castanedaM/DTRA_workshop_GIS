@@ -11,29 +11,29 @@
 carpentry: 'dc'
 
 # Overall title for pages.
-title: 'Introduction to Geospatial Raster and Vector Data with R'
+title: 'DTRA WORKSHOP: Introduction to Geospatial Raster and Vector Data with R'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: '2015-10-22'
+created: '2024-01-04'
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries'
+keywords: 'software, data, raster, GIS'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'transition-step-2'
+life_cycle: 'stable'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/datacarpentry/r-raster-vector-geospatial/'
+source: 'https://github.com/castanedaM/DTRA_workshop_GIS/'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'marianacg@vt.edu'
 
 # Navigation ------------------------------------------------
 #
