@@ -44,7 +44,7 @@ There are four data sets included, all of which are available
 under a CC-BY license. You can download all of the data used in this workshop by clicking
 [this download link](https://ndownloader.figshare.com/articles/2009586/versions/10).
 Clicking the download link will download all of the files as a single compressed
-(`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
+(`.zip`) file. To expand this file, double-click the folder icon in your file navigator application (for Macs, this is the Finder
 application).
 
 These data files represent the teaching version of the data, with sufficient complexity to teach many aspects of  data analysis and
