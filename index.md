@@ -4,9 +4,6 @@ author: Mariana Castaneda-Guzman
 site: sandpaper::sandpaper_site
 ---
 
-
-# DTRA WORKSHOP: Introduction to Geospatial Raster and Vector Data with R
-
 <p></p>
 
 <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
