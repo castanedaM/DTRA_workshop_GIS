@@ -130,12 +130,19 @@
                   <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         Summary and Set-up
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#acknowledgments">Acknowledgments</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -319,9 +326,8 @@
 
 <p>
 </p>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-<p><img src="../fig/Vertical_VT_Full_Color_RGB.jpg" style="width: 25%; display: inline-block;" alt="" class="figure"><img src="../fig/CDC_logo.jpg" style="width: 25%; display: inline-block;" alt="" class="figure"><img src="../fig/NCDC_logo.png" style="width: 25%; display: inline-block;" alt="" class="figure"><img src="../fig/DTRA_logo.png" style="width: 25%; display: inline-block;" alt="" class="figure"></p>
-</div>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+<figure><img src="../fig/Vertical_VT_Full_Color_RGB.jpg" alt="" class="figure mx-auto d-block"></figure></div>
 <p>
 </p>
 <p>The episodes in this lesson cover how to open, work with, and plot
@@ -332,6 +338,9 @@ reprojecting spatial data, and working with raster time series data.</p>
 you’ve never used <code>R</code> before or need a refresher, start with
 our <a href="https://castanedam.github.io/DTRA_workshop_R/" class="external-link">Introduction
 to R</a> lesson.</p>
+<section id="acknowledgments"><h2 class="section-heading">Acknowledgments<a class="anchor" aria-label="anchor" href="#acknowledgments"></a>
+</h2>
+<hr class="half-width"><p>CD, DTRA, NCDC, VT</p>
 <div id="download-data" class="callout prereq">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check"></i>
@@ -390,9 +399,7 @@ field sites</td>
 </div>
 </div>
 </div>
-
-
-      <section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
+</section><section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
           </tr><tr><td>
 <span class="visually-hidden">Duration: </span>00h 00m
 </td>
@@ -602,8 +609,8 @@ instructions</a> on the workshop homepage.</p>
   "url": "https://castanedam.github.io/DTRA_workshop_GIS/instructor/index.html",
   "identifier": "https://castanedam.github.io/DTRA_workshop_GIS/instructor/index.html",
   "dateCreated": "2024-01-04",
-  "dateModified": "2024-01-04",
-  "datePublished": "2024-01-04"
+  "dateModified": "2024-01-05",
+  "datePublished": "2024-01-05"
 }
 
   </script><script>
