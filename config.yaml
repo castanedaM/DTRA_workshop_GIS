@@ -14,7 +14,7 @@ carpentry: 'dc'
 title: 'DTRA WORKSHOP: Introduction to Geospatial Raster and Vector Data with R'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: '2024-01-04'
+created: '2024-01-06'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, raster, GIS'
