@@ -1,5 +1,5 @@
 ---
-title: Raster Calculations
+title: Raster Calculations (Advance)
 teaching: 40
 exercises: 20
 source: Rmd
