@@ -60,6 +60,7 @@ contact: 'marianacg@vt.edu'
 # Order of episodes in your lesson
 episodes: 
 - 01-raster-structure.Rmd
+- 01-raster-structure-advance.Rmd
 - 02-raster-plot.Rmd
 - 03-raster-reproject-in-r.Rmd
 - 04-raster-calculations-in-r.Rmd
