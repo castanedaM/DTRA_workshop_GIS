@@ -51,18 +51,6 @@ represents the overall geographic coverage of the spatial object.
 ![](fig/dc-spatial-vector/spatial_extent.png){alt='Extent illustration'} Image Source: National
 Ecological Observatory Network (NEON)
 
-The graphic below illustrates the extent of several of the spatial layers that
-we have worked with in this workshop:
-
-- Area of interest (AOI) -- blue
-- Roads and trails -- purple
-- Vegetation plot locations (marked with white dots)-- black
-- A canopy height model (CHM) in GeoTIFF format -- green
-
-
-
-<img src="fig/11-vector-raster-integration-rendered-compare-data-extents-1.png" style="display: block; margin: auto;" />
-
 Frequent use cases of cropping a raster file include reducing file size and
 creating maps. Sometimes we have a raster file that is much larger than our
 study area or area of interest. It is often more efficient to crop the raster
@@ -230,7 +218,7 @@ extent of our (cropped) raster data (dark green).
 
 
 
-<img src="fig/11-vector-raster-integration-rendered-repeat-compare-data-extents-1.png" style="display: block; margin: auto;" />
+
 
 ## Define an Extent
 

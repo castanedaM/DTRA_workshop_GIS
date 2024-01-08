@@ -1,5 +1,5 @@
 ---
-title: Raster Time Series Data
+title: Raster Time Series Data (Advance)
 teaching: 40
 exercises: 20
 source: Rmd

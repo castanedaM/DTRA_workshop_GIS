@@ -50,16 +50,6 @@ Model data. This differs from the surface model data we've been working with so
 far in that the digital surface model (DSM) includes the tops of trees, while
 the digital terrain model (DTM) shows the ground level.
 
-We'll be looking at another model (the canopy height model) in
-[a later episode](04-raster-calculations-in-r/) and will see how to calculate 
-the CHM from the DSM and DTM. Here, we will create a map of the Harvard Forest 
-Digital Terrain Model (`DTM_HARV`) draped or layered on top of the hillshade 
-(`DTM_hill_HARV`).
-The hillshade layer maps the terrain using light and shadow to create a 
-3D-looking image, based on a hypothetical illumination of the ground level.
-
-![](fig/dc-spatial-raster/lidarTree-height.png){alt='Source: National Ecological Observatory Network (NEON).'}
-
 First, we need to import the DTM and DTM hillshade data.
 
 
