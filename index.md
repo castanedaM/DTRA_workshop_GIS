@@ -1,12 +1,12 @@
 ---
-title: "Summary and Set-up"
+title: "Introduction to GIS in R: Summary and Set-up"
 author: Mariana Castaneda-Guzman
 site: sandpaper::sandpaper_site
 ---
 
 <p></p>
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+<div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
   
 ![](episodes/fig/Vertical_VT_Full_Color_RGB.jpg){alt=""}
 
@@ -24,9 +24,6 @@ used `R` before or need a refresher, start with our
 [Introduction to R](https://castanedam.github.io/DTRA_workshop_R/)
 lesson.
 
-## Acknowledgments
-
-CD, DTRA, NCDC, VT
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
@@ -62,4 +59,7 @@ management, but with many complexities removed, students can focus on the core i
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Acknowledgments
+
+CD, DTRA, NCDC, VT
 
