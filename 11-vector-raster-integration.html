@@ -263,7 +263,7 @@
 <div class="accordion accordion-flush" id="accordionFlush14">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading14">
-        <a href="12-time-series-raster.html">13. Raster Time Series Data</a>
+        <a href="12-time-series-raster.html">13. Raster Time Series Data (Advance)</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -272,7 +272,7 @@
 <div class="accordion accordion-flush" id="accordionFlush15">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading15">
-        <a href="13-plot-time-series-rasters-in-r.html">14. Create Publication-quality Graphics</a>
+        <a href="13-plot-time-series-rasters-in-r.html">14. Create Publication-quality Graphics (Advance)</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -409,13 +409,7 @@ south east and west. Thus it represents the overall geographic coverage
 of the spatial object.</p>
 <p><img src="fig/dc-spatial-vector/spatial_extent.png" alt="Extent illustration" class="figure"> Image Source: National Ecological
 Observatory Network (NEON)</p>
-<p>The graphic below illustrates the extent of several of the spatial
-layers that we have worked with in this workshop:</p>
-<ul><li>Area of interest (AOI) – blue</li>
-<li>Roads and trails – purple</li>
-<li>Vegetation plot locations (marked with white dots)– black</li>
-<li>A canopy height model (CHM) in GeoTIFF format – green</li>
-</ul><figure><img src="fig/11-vector-raster-integration-rendered-compare-data-extents-1.png" style="display: block; margin: auto;" class="figure mx-auto d-block"></figure><p>Frequent use cases of cropping a raster file include reducing file
+<p>Frequent use cases of cropping a raster file include reducing file
 size and creating maps. Sometimes we have a raster file that is much
 larger than our study area or area of interest. It is often more
 efficient to crop the raster to the extent of our study area to reduce
@@ -564,7 +558,7 @@ Model.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Answers</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb13">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -597,7 +591,7 @@ function will make a raster extent smaller, it will not expand the
 extent in areas where there are no data. Thus, the extent of our
 vegetation plot layer will still extend further west than the extent of
 our (cropped) raster data (dark green).</p>
-<figure><img src="fig/11-vector-raster-integration-rendered-repeat-compare-data-extents-1.png" style="display: block; margin: auto;" class="figure mx-auto d-block"></figure></section><section id="define-an-extent"><h2 class="section-heading">Define an Extent<a class="anchor" aria-label="anchor" href="#define-an-extent"></a>
+</section><section id="define-an-extent"><h2 class="section-heading">Define an Extent<a class="anchor" aria-label="anchor" href="#define-an-extent"></a>
 </h2>
 <hr class="half-width"><p>So far, we have used a vector layer to crop the extent of a raster
 dataset. Alternatively, we can also the <code>ext()</code> function to
@@ -812,7 +806,7 @@ averages returned.</p></li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Answers</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb29">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
