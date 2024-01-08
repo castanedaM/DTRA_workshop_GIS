@@ -77,7 +77,7 @@ aoi_boundary_HARV <- st_read(
 
 ```{.output}
 Reading layer `HarClip_UTMZ18' from data source 
-  `/home/runner/work/r-raster-vector-geospatial/r-raster-vector-geospatial/site/built/data/NEON-DS-Site-Layout-Files/HARV/HarClip_UTMZ18.shp' 
+  `/home/runner/work/DTRA_workshop_GIS/DTRA_workshop_GIS/site/built/data/NEON-DS-Site-Layout-Files/HARV/HarClip_UTMZ18.shp' 
   using driver `ESRI Shapefile'
 Simple feature collection with 1 feature and 1 field
 Geometry type: POLYGON
@@ -276,7 +276,7 @@ lines_HARV <- st_read("data/NEON-DS-Site-Layout-Files/HARV/HARV_roads.shp")
 
 ```{.output}
 Reading layer `HARV_roads' from data source 
-  `/home/runner/work/r-raster-vector-geospatial/r-raster-vector-geospatial/site/built/data/NEON-DS-Site-Layout-Files/HARV/HARV_roads.shp' 
+  `/home/runner/work/DTRA_workshop_GIS/DTRA_workshop_GIS/site/built/data/NEON-DS-Site-Layout-Files/HARV/HARV_roads.shp' 
   using driver `ESRI Shapefile'
 Simple feature collection with 13 features and 15 fields
 Geometry type: MULTILINESTRING
@@ -291,7 +291,7 @@ point_HARV <- st_read("data/NEON-DS-Site-Layout-Files/HARV/HARVtower_UTM18N.shp"
 
 ```{.output}
 Reading layer `HARVtower_UTM18N' from data source 
-  `/home/runner/work/r-raster-vector-geospatial/r-raster-vector-geospatial/site/built/data/NEON-DS-Site-Layout-Files/HARV/HARVtower_UTM18N.shp' 
+  `/home/runner/work/DTRA_workshop_GIS/DTRA_workshop_GIS/site/built/data/NEON-DS-Site-Layout-Files/HARV/HARVtower_UTM18N.shp' 
   using driver `ESRI Shapefile'
 Simple feature collection with 1 feature and 14 fields
 Geometry type: POINT

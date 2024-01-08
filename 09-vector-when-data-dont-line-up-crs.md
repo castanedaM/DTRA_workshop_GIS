@@ -103,7 +103,7 @@ state_boundary_US <- st_read("data/NEON-DS-Site-Layout-Files/US-Boundary-Layers/
 
 ```{.output}
 Reading layer `US-State-Boundaries-Census-2014' from data source 
-  `/home/runner/work/r-raster-vector-geospatial/r-raster-vector-geospatial/site/built/data/NEON-DS-Site-Layout-Files/US-Boundary-Layers/US-State-Boundaries-Census-2014.shp' 
+  `/home/runner/work/DTRA_workshop_GIS/DTRA_workshop_GIS/site/built/data/NEON-DS-Site-Layout-Files/US-Boundary-Layers/US-State-Boundaries-Census-2014.shp' 
   using driver `ESRI Shapefile'
 Simple feature collection with 58 features and 10 fields
 Geometry type: MULTIPOLYGON
@@ -139,7 +139,7 @@ country_boundary_US <- st_read("data/NEON-DS-Site-Layout-Files/US-Boundary-Layer
 
 ```{.output}
 Reading layer `US-Boundary-Dissolved-States' from data source 
-  `/home/runner/work/r-raster-vector-geospatial/r-raster-vector-geospatial/site/built/data/NEON-DS-Site-Layout-Files/US-Boundary-Layers/US-Boundary-Dissolved-States.shp' 
+  `/home/runner/work/DTRA_workshop_GIS/DTRA_workshop_GIS/site/built/data/NEON-DS-Site-Layout-Files/US-Boundary-Layers/US-Boundary-Dissolved-States.shp' 
   using driver `ESRI Shapefile'
 Simple feature collection with 1 feature and 9 fields
 Geometry type: MULTIPOLYGON
@@ -340,7 +340,7 @@ NE.States.Boundary.US <- st_read("data/NEON-DS-Site-Layout-Files/US-Boundary-Lay
 
 ```{.output}
 Reading layer `Boundary-US-State-NEast' from data source 
-  `/home/runner/work/r-raster-vector-geospatial/r-raster-vector-geospatial/site/built/data/NEON-DS-Site-Layout-Files/US-Boundary-Layers/Boundary-US-State-NEast.shp' 
+  `/home/runner/work/DTRA_workshop_GIS/DTRA_workshop_GIS/site/built/data/NEON-DS-Site-Layout-Files/US-Boundary-Layers/Boundary-US-State-NEast.shp' 
   using driver `ESRI Shapefile'
 Simple feature collection with 12 features and 9 fields
 Geometry type: MULTIPOLYGON
