@@ -80,41 +80,6 @@ represents the overall geographic coverage of the spatial object.
 ![](fig/dc-spatial-vector/spatial_extent.png){alt='Extent illustration'} Image Source: National
 Ecological Observatory Network (NEON)
 
-The graphic below illustrates the extent of several of the spatial layers that
-we have worked with in this workshop:
-
-- Area of interest (AOI) -- blue
-- Roads and trails -- purple
-- Vegetation plot locations (marked with white dots)-- black
-- A canopy height model (CHM) in GeoTIFF format -- green
-
-```{r view-extents, echo=FALSE, results="hide"}
-# code not shown, for demonstration purposes only
-# create CHM as a vector layer
-CHM_HARV_sp <- st_as_sf(CHM_HARV_df, coords = c("x", "y"), crs = utm18nCRS)
-# approximate the boundary box with a random sample of raster points
-CHM_rand_sample <- sample_n(CHM_HARV_sp, 10000)
-lines_HARV <- st_read("data/NEON-DS-Site-Layout-Files/HARV/HARV_roads.shp")
-plots_HARV <-
-  st_read("data/NEON-DS-Site-Layout-Files/HARV/PlotLocations_HARV.shp")
-```
-
-```{r compare-data-extents, echo=FALSE}
-# code not shown, for demonstration purposes only
-ggplot() +
-  geom_sf(data = st_convex_hull(st_union(CHM_rand_sample)), fill = "green") +
-  geom_sf(data = st_convex_hull(st_union(lines_HARV)),
-          fill = "purple", alpha =  0.2) +
-  geom_sf(data = lines_HARV, aes(color = TYPE), size = 1) +
-  geom_sf(data = aoi_boundary_HARV, fill = "blue") +
-  geom_sf(data = st_convex_hull(st_union(plot_locations_sp_HARV)),
-          fill = "black", alpha = 0.4) +
-  geom_sf(data = plots_HARV, color = "white") +
-  theme(legend.position = "none") +
-  coord_sf()
-
-```
-
 Frequent use cases of cropping a raster file include reducing file size and
 creating maps. Sometimes we have a raster file that is much larger than our
 study area or area of interest. It is often more efficient to crop the raster
