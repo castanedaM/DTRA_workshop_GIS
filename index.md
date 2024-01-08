@@ -6,9 +6,9 @@ site: sandpaper::sandpaper_site
 
 <p></p>
 
-<div style="text-align: center; margin-top: 5px; margin-bottom: 5px;">
+<div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
   
-![](episodes/fig/Vertical_VT_Full_Color_RGB.jpg){alt=""}
+![](episodes/fig/Vertical_VT_Full_Color_RGB.jpg){alt="" style="width: 50%;"}
 
 </div>
 
