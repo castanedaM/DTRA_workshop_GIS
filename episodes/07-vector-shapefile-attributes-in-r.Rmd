@@ -1,5 +1,5 @@
 ---
-title: Explore and Plot by Vector Layer Attributes
+title: Open and Plot Vector Layers (Advance)
 teaching: 40
 exercises: 20
 source: Rmd
