@@ -59,7 +59,12 @@ management, but with many complexities removed, students can focus on the core i
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+## Contributors
+
+This lesson was inspired by Software and Data Carpentry Workshops.
+
 ## Acknowledgments
 
-CD, DTRA, NCDC, VT
+CDC, NCDC, DTRA, VT
 
