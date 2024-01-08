@@ -13,7 +13,6 @@ source: Rmd
 - Explore raster attributes and metadata using R.
 - Import rasters into R using the `terra` package.
 - Plot a raster file in R using the `ggplot2` package.
-- Describe the difference between single- and multi-band rasters.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -21,7 +20,6 @@ source: Rmd
 
 - What is a raster dataset?
 - How do I work with and plot raster data in R?
-- How can I handle missing or bad data values for a raster?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -376,7 +374,6 @@ We can see that the elevation at our site ranges from 305.0700073m to
 - The GeoTIFF file format includes metadata about the raster data.
 - To plot raster data with the `ggplot2` package, we need to convert it to a dataframe.
 - R stores CRS information in the Proj4 format.
-- Be careful when dealing with missing or bad data values.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
