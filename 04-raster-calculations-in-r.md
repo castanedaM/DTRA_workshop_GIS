@@ -478,40 +478,6 @@ Now we can plot the CHM:
 How do the plots of the CHM created with manual raster math and the `lapp()`
 function compare?
 
-## Export a GeoTIFF
-
-Now that we've created a new raster, let's export the data as a GeoTIFF
-file using
-the `writeRaster()` function.
-
-When we write this raster object to a GeoTIFF file we'll name it
-`CHM_HARV.tiff`. This name allows us to quickly remember both what the data
-contains (CHM data) and for where (HARVard Forest). The `writeRaster()` function
-by default writes the output file to your working directory unless you specify a
-full file path.
-
-We will specify the output format ("GTiff"), the no data value `NAflag = -9999`. 
-We will also tell R to overwrite any data that is already in a file of the same 
-name.
-
-
-```r
-writeRaster(CHM_ov_HARV, "CHM_HARV.tiff",
-            filetype="GTiff",
-            overwrite=TRUE,
-            NAflag=-9999)
-```
-
-### writeRaster() Options
-
-The function arguments that we used above include:
-
-- **filetype:** specify that the format will be `GTiff` or GeoTIFF.
-- **overwrite:** If TRUE, R will overwrite any existing file  with the same
-  name in the specified directory. USE THIS SETTING WITH CAUTION!
-- **NAflag:** set the GeoTIFF tag for `NoDataValue` to -9999, the National
-  Ecological Observatory Network's (NEON) standard `NoDataValue`.
-
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Challenge: Explore the NEON San Joaquin Experimental Range Field Site
