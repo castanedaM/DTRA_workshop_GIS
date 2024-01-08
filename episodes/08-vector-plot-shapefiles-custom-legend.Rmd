@@ -1,5 +1,5 @@
 ---
-title: Plot Multiple Vector Layers
+title: Plot Multiple Vector Layers (Advance)
 teaching: 40
 exercises: 20
 source: Rmd
