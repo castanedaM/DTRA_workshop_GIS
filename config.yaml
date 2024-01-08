@@ -73,7 +73,6 @@ episodes:
 - 11-vector-raster-integration.Rmd
 - 12-time-series-raster.Rmd
 - 13-plot-time-series-rasters-in-r.Rmd
-- 14-extract-ndvi-from-rasters-in-r.Rmd
 
 # Information for Learners
 learners: 
